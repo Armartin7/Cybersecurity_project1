@@ -23,3 +23,8 @@
     command: filebeat setup
 
   - name: start filebeat service
+
+  - name: enable service filebeat on boot
+    systemd:
+      name: filebeat
+      enabled: yes
