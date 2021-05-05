@@ -92,7 +92,10 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 - Copy the <playbook>.yml file to the Ansible directory.
 - Update the host and file to include webservers and ELK (you can pick which to update having these groups)
-- Run the playbook, and navigate to Kibana to check that the installation worked as expected.
+- Run the playbook
+![image](https://user-images.githubusercontent.com/77819150/117177557-04a3d200-ad86-11eb-9603-89403e62099f.png)
+
+- navigate to Kibana to check that the installation worked as expected.
 
 -to run the playbook use the following command <ansible-playbook> <path/to/your/playbook><playbookname.yml> 
 After succesful instalation you can send sample data to check your instalation via Kibana to see if it worked you should see the following after accessing
